@@ -1,0 +1,704 @@
+ :root{
+     --Desktop: 1200px;
+     --Laptop: 1024px;
+     --Tablet: 768px;
+     --Phone: 480px;
+ }
+
+ @media only screen and (max-width: 768px){
+     .row{
+         width: 90%;
+     }
+     .hero-text-box{
+         width: 70%;
+         left: 50%;
+         top: 30%;
+         font-size: 55%;
+     }
+     .left-txt-sidebar{
+         lefT: -70%;
+         top: -40%;
+     }
+     .left-txt-sidebar::after{
+         left: 42%;
+         border: 1px solid #93e7744a;
+         top: -5%;
+         height: 25px;
+     }
+     .left-txt-sidebar::before{
+         top: -5%;
+         left: -3.5%;
+         height: 25px;
+         border: 1px solid #93e7744a;
+     }
+     .clipart{
+        height: 200px;
+        margin-left: 5em;
+    }
+    .tool-img-bg{
+        height: 43%;
+        width: 15%;
+        left: 93%;
+        top: 52%;
+    }
+    .svg-hand{
+        width: 25%;
+        height: 50%;
+    }
+     .main-nav{
+         margin-top: 5px;
+     }
+     .main-nav li a:link,
+     .main-nav li a:visited{
+         font-size: 12px;
+     }
+     .logo-light-green{
+         width: 5%;
+         height: 35px;
+         margin-top: 5px;
+     }
+      /* ******** REGISTRATION-FORM ********* */
+      .form-reg{
+        width: 90%;
+      }
+      .container{
+        max-width: 90%;
+        margin-left: 10%;
+      }
+      .header{
+        padding: 20px 30px;
+      }
+      .header h2{
+        font-size: 92%;
+      }
+      .form{
+        padding: 20px 30px;
+        font-size: 80%;
+      }
+      .modal-content{
+        width: 65%;
+        margin: 15% auto;
+      }
+      .form-control i{
+        top: 30px;
+      }
+
+
+     /* =================================================== */
+    /* SERVICES-SECTION */
+    /* =================================================== */
+     .services-section{
+         margin: -43% 0;
+         clear: both;
+     }
+     .services-section h2{
+         font-size: 100%;
+     }
+     .services-section h2::after{
+         width: 12%;
+         height: 1.5px;
+         background-color: #93e77489;
+         margin-top: 12px;
+     }
+     .long-copy{
+         font-size: 100%;
+         word-spacing: 5px;
+         letter-spacing: 5px;
+     }
+     .services-list{
+         width: 140%;
+     }
+     .services-list li{
+        font-weight: 300;
+        font-size: 60%;
+        margin-bottom: .6em;
+    }
+    .icon-tick{
+        font-size: 100%;
+        padding-right: .5em;
+        line-height: 150%;
+    }
+    .icon-big{
+        font-size: 230%;
+    }
+    .box h4{
+        font-size: 90%;
+    }
+    .box p{
+        text-align: left;
+        font-size: 80%;
+    }
+
+    /* =================================================== */
+    /* TOOLS-SECTION */
+    /* =================================================== */
+    .long-copy-2{
+        font-size: 90%;
+        letter-spacing: 1px;
+        margin-top: 25px;
+    }
+    .box-tools h4{
+        font-weight: 300;
+        font-size: 16px;
+        letter-spacing: 1px;
+        padding-bottom: .5em;
+    }
+    .tools-section{
+        padding: .5%;
+    }
+    .img-box img{
+        width: 50%;
+        height: auto;
+    }
+    .img-box div{
+        padding: 8px;
+    }
+    .icon-tools{
+        font-size: 100%;
+    }
+    .txt-bx p{
+        margin-bottom: 10px;
+    }
+    .tool-span-txt{
+        font-size: 70%;
+    }
+    .btn-order{
+        margin-top: 10px;
+    }
+    .btn-order .btn{
+        padding: 10px 10px;
+        display: block;
+        font-size: 70%;
+    }
+    .item-quantity,
+    .year-val,
+    .price-num{
+        font-size: 80%;
+    }
+    .price-txt,
+    .warranty-txt,
+    .rating-txt,
+    .expiry-time{
+        font-size: 55%;
+    }
+    .item-quantity i{
+        font-size: 75%;
+    }
+    .expiry-time{
+        font-size: 75%;
+    }
+    .in{
+        padding: .3rem .5rem;
+        font-size: 50%;
+        line-height: -650%;
+    }
+    .item-des{
+        font-size: 60%;
+    }
+    .item{
+        margin: 0;
+    }
+    .btn-order{
+        margin-left: 1.5rem;
+    }
+
+
+
+    /* =================================================== */
+    /* ABOUT-SECTION */
+    /* =================================================== */
+    .bx-title h2{
+        font-size: 110%;
+        letter-spacing: 10px;
+    }
+    .abt-center{
+        padding: 1em;
+    }
+    .abt-center p{
+        font-size: 90%;
+    }
+
+
+
+    /* =================================================== */
+    /* CONTACT-SECTION */
+    /* =================================================== */
+    .contact-section h2{
+        font-size: 100%;
+    }
+    .contact-form{
+        width: 80%;
+    }
+    .contact-section h2::after{
+        margin-top: 10px;
+        width: 30%;
+        background-color: #93e77489;
+    }
+    input[type="text"],
+    input[type="email"],
+    select,
+    textarea{
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 20px;
+    }
+    .contact-form label,
+    input::placeholder,
+    select,
+    .sel-col,
+    input[type="checkbox"],
+    textarea::placeholder,
+    input[type="submit"]{
+        font-size: 69%;
+    }
+    select{
+        font-size: 70% !important;
+    }
+
+
+
+
+    /* =================================================== */
+    /* FOOTER-SECTION */
+    /* =================================================== */
+    footer{
+        padding: 10px;
+        margin-top: 10px;
+        font-size: 60%;
+    }
+ }
+
+
+ /* Small phones to small tablets: from 480 to 768 */
+ @media only screen  and (max-width: 480px){
+    /* =================================================== */
+    /* HEADER-SECTION */
+    /* =================================================== */
+    .hero-text-box{
+        width: 70%;
+        left: 50%;
+        top: 30%;
+        font-size: 35%;
+    }
+    .left-txt-sidebar{
+        display: none;
+    }
+
+   .tool-img-bg{
+       height: 43%;
+       width: 15%;
+       left: 93%;
+       top: 52%;
+   }
+   .svg-hand{
+       width: 25%;
+       height: 50%;
+   }
+    .main-nav{
+        display: none;
+    }
+    .btn:link,
+    .btn:visited{
+        padding: 1em 2em;
+        margin-right: 10px;
+        border-radius: 5px;
+    }
+    .logo-light-green{
+        display: none;
+    }
+
+    /* ******** REGISTRATION-FORM ********* */
+    .form-reg{
+      width: 90%;
+    }
+    .container{
+      max-width: 90%;
+      margin-left: 10%;
+    }
+    .header{
+      padding: 15px 20px;
+    }
+    .header h2{
+      font-size: 80%;
+    }
+    .form{
+      padding: 20px 15px;
+      font-size: 70%;
+    }
+    .modal-content{
+      width: 65%;
+      margin: 15% auto;
+      padding: 0;
+    }
+    .form-control i{
+      font-size: 100%;
+      top: 30px;
+    }
+    .close {
+     font-size: 25px;
+     padding-right: 10px;
+    }
+
+    /*========================================  */
+    /* ---- MOBILE-NAVIGATION ----- */
+    /*========================================  */
+    .for-mobile{
+        display: block;
+    }
+    .nav-link{
+        line-height: 3rem;
+        font-size: 50%;
+        line-height: 2.5rem;
+    }
+    .nav-link i{
+        font-size: 130%;
+        margin-right: 0;
+        color: #82beb0;
+        vertical-align: middle;
+    }
+    .nav-list{
+        margin-bottom: 2em;;
+    }
+    .hamburger,
+    .hamburger i{
+        top: .5rem;
+        right: .5rem;
+    }
+    .hamburger{
+        background-color: #0b0c0b;
+        border-radius: 20%;
+        width: 34px;
+        padding: 0 .4rem;
+        padding-bottom: 0;
+        line-height: 100%;
+    }
+    .hamburger i{
+        font-size: 120%;
+    }
+    .sidebar{
+        width: 9rem;
+    }
+    .social-media{
+        padding: .1rem;
+        padding-right: 1em;
+    }
+    .icon-link{
+        width: 0;
+        height: 0;
+        transition: all .3s;
+    }
+    .icon-link i{
+        font-size: 80%;
+        text-align: center;
+        margin-right: .5em;
+    }
+    .icon-link:hover,
+    .icon-link:active{
+        text-shadow: 0 0 5px #93e7744a;
+    }
+    .user-specs{
+        text-align: center;
+        padding-top: 3.5em;
+    }
+    .logo{
+        width: 35%;
+        height: 46%;
+        border-radius: 50%;
+    }
+    .follow-us-txt{
+        display: block;
+        font-size: 80%;
+        color: #82beb0a7;
+    }
+
+
+
+    /* =================================================== */
+   /* SERVICES-SECTION */
+   /* =================================================== */
+    .services-section{
+        margin: -29% 0;
+    }
+    .services-section h2{
+        font-size: 90%;
+    }
+    .services-section h2::after{
+        width: 15%;
+        height: 1.5px;
+        background-color: #93e77489;
+        margin-top: 5px;
+    }
+    .long-copy{
+        font-size: 90%;
+        word-spacing: 5px;
+        letter-spacing: 5px;
+    }
+    .services-list{
+        width: 140%;
+    }
+    .services-list li{
+       font-weight: 300;
+       font-size: 50%;
+       margin-bottom: .6em;
+   }
+   .icon-tick{
+       font-size: 100%;
+       padding-right: .5em;
+       line-height: 150%;
+   }
+   .clipart{
+    height: 200px;
+}
+
+   .icon-big{
+       font-size: 230%;
+   }
+
+
+   /* =================================================== */
+   /* TOILET-SECTION */
+   /* =================================================== */
+   header{
+       height: 90vh;
+   }
+   .box-tlt h4{
+       font-size: 80%;
+   }
+   .long-copy:last-of-type{
+       font-size: 90%;
+       word-spacing: 5px;
+       letter-spacing: .9px;
+   }
+   .box-tlt p{
+       text-align: left;
+       font-size: 80%;
+       text-align: center;
+   }
+
+
+
+   /* =================================================== */
+   /* TOOLS-SECTION */
+   /* =================================================== */
+   .long-copy-2{
+       font-size: 70%;
+       letter-spacing: 1px;
+       margin-top: 25px;
+   }
+   .box-tools h4{
+       font-weight: 300;
+       font-size: 16px;
+       letter-spacing: 1px;
+       padding-bottom: .5em;
+   }
+   .tools-section{
+       padding: .5%;
+   }
+   .icon-tools{
+       font-size: 100%;
+   }
+   .txt-bx p{
+       margin-bottom: 10px;
+   }
+   .tool-span-txt{
+       font-size: 70%;
+   }
+   .btn-order{
+       margin-top: 10px;
+   }
+   .btn-order .btn{
+       padding: 10px 10px;
+       display: block;
+       font-size: 70%;
+   }
+
+
+   /* =================================================== */
+   /* ABOUT-SECTION */
+   /* =================================================== */
+   .bx-title h2{
+       font-size: 110%;
+       letter-spacing: 10px;
+   }
+   .abt-center{
+       padding: 1em;
+   }
+   .abt-center p{
+       font-size: 90%;
+   }
+
+
+
+   /* =================================================== */
+   /* CONTACT-SECTION */
+   /* =================================================== */
+   .contact-section h2{
+       font-size: 100%;
+   }
+   .contact-form{
+       width: 80%;
+   }
+   .contact-section h2::after{
+       margin-top: 10px;
+       width: 30%;
+       background-color: #93e77489;
+   }
+   input[type="text"],
+   input[type="email"],
+   select,
+   textarea{
+       width: 100%;
+       padding: 5px;
+       margin-bottom: 20px;
+   }
+   .contact-form label,
+   input::placeholder,
+   select,
+   .sel-col,
+   input[type="checkbox"],
+   textarea::placeholder,
+   input[type="submit"]{
+       font-size: 69%;
+   }
+   select{
+       font-size: 70% !important;
+   }
+
+
+
+
+   /* =================================================== */
+   /* FOOTER-SECTION */
+   /* =================================================== */
+   footer{
+       padding: 10px;
+       margin-top: 10px;
+       font-size: 60%;
+   }
+   .social-links-icons{
+     float: left;
+   }
+ }
+ @media only screen and (max-width: 360px){
+     .svg-hand,
+     .tool-img-bg{
+         display: none;
+     }
+     .hero-text-box{
+         left: 65%;
+         width: 100%;
+     }
+     header{
+         height: 70vh;
+     }
+     /* ******** REGISTRATION-FORM ********* */
+     .form-reg{
+       width: 90%;
+     }
+     .container{
+       max-width: 90%;
+       margin-left: 10%;
+     }
+     .header{
+       padding: 15px 20px;
+     }
+     .header h2{
+       font-size: 60%;
+     }
+     .form{
+       padding: 20px 15px;
+       font-size: 60%;
+     }
+     .modal-content{
+       width: 65%;
+       margin: 15% auto;
+     }
+     .form-control i{
+       font-size: 100%;
+       top: 30px;
+     }
+     .close {
+      font-size: 25px;
+      padding-right: 10px;
+     }
+
+
+
+    /*========================================  */
+    /* ---- MOBILE-NAVIGATION ----- */
+    /*========================================  */
+    .for-mobile{
+        display: block;
+    }
+    .nav-link{
+        line-height: 3rem;
+        font-size: 50%;
+        line-height: 2.5rem;
+    }
+    .nav-link i{
+        font-size: 130%;
+        margin-right: 0;
+        color: #82beb0;
+        vertical-align: middle;
+    }
+    .nav-list{
+        margin-bottom: 2em;
+    }
+    .hamburger,
+    .hamburger i{
+        top: .5rem;
+        right: 1rem;
+    }
+    .hamburger{
+        width: 26px;
+        padding: 0 .2rem;
+        padding-bottom: 0;
+        line-height: 90%;
+    }
+    .hamburger i{
+        font-size: 110%;
+
+    }
+    .sidebar{
+        width: 9rem;
+    }
+    .social-media{
+        padding: .1rem;
+        padding-right: 1em;
+    }
+    .icon-link{
+        width: 0;
+        height: 0;
+        transition: all .3s;
+    }
+    .icon-link i{
+        font-size: 80%;
+        text-align: center;
+        margin-right: .5em;
+    }
+    .icon-link:hover,
+    .icon-link:active{
+        text-shadow: 0 0 5px #93e7744a;
+    }
+    .user-specs{
+        text-align: center;
+        padding-top: 3.5em;
+    }
+    .logo{
+        width: 35%;
+        height: 46%;
+        border-radius: 50%;
+    }
+    .follow-us-txt{
+        display: block;
+        font-size: 80%;
+        color: #82beb0a7;
+    }
+
+    /* ************************ */
+    /* --- FOOTER --- */
+    /* *********************** */
+    .social-links-icons{
+      float: left;
+    }
+ }
