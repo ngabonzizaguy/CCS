@@ -435,6 +435,10 @@ h2::after{
     margin-bottom: 1.1em;
     width: 100%;
 }
+/* .services-list li > span {
+    display: block;
+    float: right;
+} */
 .icon-tick{
     font-size: 150%;
     padding-right: .5em;
