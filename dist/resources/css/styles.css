@@ -420,6 +420,10 @@ h2::after{
 .long-copy{
     margin-bottom: 30px;
 }
+.services-card {
+    background-color: #333;
+    height: auto;
+}
 .services-section{
     padding: 3%;
     background-color: #151817;
@@ -434,7 +438,9 @@ h2::after{
     font-size: 95%;
     margin-bottom: 1.1em;
     width: 100%;
+    display: inline-flex;
 }
+
 /* .services-list li > span {
     display: block;
     float: right;
@@ -1872,6 +1878,9 @@ h5::before{
       padding: 10px 10px;
       display: block;
       font-size: 70%;
+  }
+  .img-box {
+      width: 100%;
   }
 
 
