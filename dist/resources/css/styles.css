@@ -421,10 +421,14 @@ h2::after{
     margin-bottom: 30px;
 }
 .services-card {
-    background-color: #333;
-    height: auto;
+    height: 19rem;
+    padding: 1.2rem;
+    border-radius: 20px;
+    background: #151817;
+    box-shadow:  6px 6px 12px #101211,
+             -6px -6px 12px #1a1e1d;
 }
-.services-section{
+.services-section {
     padding: 3%;
     background-color: #151817;
 }
@@ -440,11 +444,10 @@ h2::after{
     width: 100%;
     display: inline-flex;
 }
-
-/* .services-list li > span {
-    display: block;
-    float: right;
-} */
+.services-list li:not(:last-child) {
+    border-bottom: 2px solid rgba(51, 51, 51, 0.208);
+    padding-bottom: .5rem;
+}
 .icon-tick{
     font-size: 150%;
     padding-right: .5em;
@@ -1390,6 +1393,9 @@ h5::before{
     /* =================================================== */
    /* SERVICES-SECTION */
    /* =================================================== */
+   .services-card {
+    height: 14rem;
+    }
     .services-section{
         margin: 13px 0;
         clear: both;
@@ -1416,6 +1422,9 @@ h5::before{
        font-size: 60%;
        margin-bottom: .6em;
    }
+   .services-list li:not(:last-child) {
+    border-bottom: 2px solid rgba(51, 51, 51, 0.150);
+    }
    .icon-tick{
        font-size: 100%;
        padding-right: .5em;
@@ -1611,6 +1620,9 @@ h5::before{
    /* =================================================== */
    /* HEADER-SECTION */
    /* =================================================== */
+   header {
+    height: 50vh !important;;
+    }
    .hero-text-box{
        width: 70%;
        left: 50%;
@@ -1753,8 +1765,16 @@ h5::before{
    /* =================================================== */
   /* SERVICES-SECTION */
   /* =================================================== */
+  .services-card {
+    height: 0;
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow:  none;
+    }
    .services-section{
-       margin: -35% 0;
+       margin: 35% 0;
+       background-color: transparent;
    }
    .services-section h2{
        font-size: 90%;
@@ -1777,6 +1797,10 @@ h5::before{
       font-weight: 300;
       font-size: 50%;
       margin-bottom: .6em;
+  }
+  .services-list li:not(:last-child) {
+      border-bottom: 0;
+      padding-bottom: 0;
   }
   .icon-tick{
       font-size: 100%;
