@@ -1774,7 +1774,9 @@ h5::before{
     }
    .services-section{
        margin: 35% 0;
-       background-color: transparent;
+       padding: 1rem;
+/*        background-color: transparent; */
+       height: 20rem;
    }
    .services-section h2{
        font-size: 90%;
@@ -1791,19 +1793,23 @@ h5::before{
        letter-spacing: 5px;
    }
    .services-list{
-       width: 140%;
+       width: 100%;
+       
    }
    .services-list li{
-      font-weight: 300;
-      font-size: 50%;
-      margin-bottom: .6em;
+      font-weight: 500;
+      font-size: 60%;
+/*        width: 140%; */
   }
+    .services-list li p {
+        word-break: break-word;
+    }
   .services-list li:not(:last-child) {
       border-bottom: 0;
-      padding-bottom: 0;
+      padding-bottom: 1.5rem;
   }
   .icon-tick{
-      font-size: 100%;
+      font-size: 80%;
       padding-right: .5em;
       line-height: 150%;
   }
