@@ -1801,8 +1801,11 @@ h5::before{
       font-size: 60%;
 /*        width: 140%; */
   }
+<<<<<<< HEAD
     .services-list li div {
     }
+=======
+>>>>>>> 18d8852d61580b89c465d80b7ebd0cdb9ccfc7bf
     .services-list li p {
         word-break: break-word;
     }
@@ -2101,7 +2104,18 @@ h5::before{
    /* ------------------------ */
    /* --- SERVICES-SECTION  --- */
    /* ------------------------ */
+<<<<<<< HEAD
     .services-section{
+=======
+   .services-section{
+       margin: 20% 0;
+   }
+   .services-list {
+     margin-left: -.5rem;
+   }
+   .services-list li{
+     margin-bottom: 1rem;
+>>>>>>> 18d8852d61580b89c465d80b7ebd0cdb9ccfc7bf
    }
    .services-list {
      width: 100%;
