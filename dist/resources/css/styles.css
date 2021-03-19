@@ -44,7 +44,7 @@ section {
    padding: 80px 0;
 }
 .box{
-    padding: 1%;
+    padding: 0;
 }
 header{
     height: 100vh;
@@ -1415,7 +1415,7 @@ h5::before{
         letter-spacing: 5px;
     }
     .services-list{
-        width: 140%;
+        width: 100%;
     }
     .services-list li{
        font-weight: 300;
@@ -1765,13 +1765,6 @@ h5::before{
    /* =================================================== */
   /* SERVICES-SECTION */
   /* =================================================== */
-  .services-card {
-    height: 0;
-    padding: 0;
-    border-radius: 0;
-    background: transparent;
-    box-shadow:  none;
-    }
    .services-section{
        margin: 35% 0;
        padding: 1rem;
@@ -1794,24 +1787,10 @@ h5::before{
    }
    .services-list{
        width: 100%;
-       
    }
    .services-list li{
       font-weight: 500;
-      font-size: 60%;
-/*        width: 140%; */
-  }
-<<<<<<< HEAD
-    .services-list li div {
-    }
-=======
->>>>>>> 18d8852d61580b89c465d80b7ebd0cdb9ccfc7bf
-    .services-list li p {
-        word-break: break-word;
-    }
-  .services-list li:not(:last-child) {
-      border-bottom: 0;
-      padding-bottom: 1.5rem;
+      font-size: 90%;
   }
   .icon-tick{
       font-size: 80%;
@@ -2104,18 +2083,13 @@ h5::before{
    /* ------------------------ */
    /* --- SERVICES-SECTION  --- */
    /* ------------------------ */
-<<<<<<< HEAD
-    .services-section{
-=======
+    .services-card {
+        margin-bottom: 2rem;
+        height: 16rem;
+    }
    .services-section{
        margin: 20% 0;
-   }
-   .services-list {
-     margin-left: -.5rem;
-   }
-   .services-list li{
-     margin-bottom: 1rem;
->>>>>>> 18d8852d61580b89c465d80b7ebd0cdb9ccfc7bf
+       background-color: transparent;
    }
    .services-list {
      width: 100%;
